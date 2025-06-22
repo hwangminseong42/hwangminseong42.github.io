@@ -52,4 +52,30 @@
 		ga('send', 'pageview');
 	</script>
 	{% endif %}
+
+	<script>
+		MathJax = {
+		tex: {
+			inlineMath: [['$', '$'], ['\\(', '\\)']],
+			displayMath: [['$$', '$$'], ['\\[', '\\]']],
+			packages: { '[+]': ['ams'] },
+			macros: {
+			rarr: "\\rightarrow",
+			larr: "\\leftarrow",
+			RR: "\\mathbb{R}",
+			ZZ: "\\mathbb{Z}",
+			QQ: "\\mathbb{Q}",
+			NN: "\\mathbb{N}",
+			CC: "\\mathbb{C}",
+			bb: ["\\mathbb{#1}", 1],
+			cal: ["\\mathcal{#1}", 1]
+			}
+		},
+		svg: {
+			fontCache: 'global',
+			displayAlign: 'center'
+		}
+		};
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
 </head>
