@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
+baseurl: "/"
 url: "https://hwangminseong42.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -29,7 +29,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "hwangminseong42.github.io"
   gitter:
   google_plus:
   instagram:
