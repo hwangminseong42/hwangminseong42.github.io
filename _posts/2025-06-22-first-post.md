@@ -45,10 +45,10 @@ $x^2+y^2=1$
 $$
 x=1\\
 y=1
-$$
+$$  
 $n!=n\times(n-1)\times\cdots\times2\times1$  
 $\int$  
-$$6CO_2+6H_2O\rarr C_6H_{12}O_6+6O_2$$
+$$6CO_2+6H_2O\rarr C_6H_{12}O_6+6O_2$$  
 $$
 \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
 $$

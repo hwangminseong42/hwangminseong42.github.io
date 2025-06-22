@@ -53,29 +53,25 @@
 	</script>
 	{% endif %}
 
-	<script>
-		MathJax = {
-		tex: {
-			inlineMath: [['$', '$'], ['\\(', '\\)']],
-			displayMath: [['$$', '$$'], ['\\[', '\\]']],
-			packages: { '[+]': ['ams'] },
-			macros: {
-			rarr: "\\rightarrow",
-			larr: "\\leftarrow",
-			RR: "\\mathbb{R}",
-			ZZ: "\\mathbb{Z}",
-			QQ: "\\mathbb{Q}",
-			NN: "\\mathbb{N}",
-			CC: "\\mathbb{C}",
-			bb: ["\\mathbb{#1}", 1],
-			cal: ["\\mathcal{#1}", 1]
-			}
-		},
-		svg: {
-			fontCache: 'global',
-			displayAlign: 'center'
-		}
-		};
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+<!-- KaTeX CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+
+<!-- KaTeX JS -->
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script>
+
+<!-- KaTeX 초기화 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\[", right: "\\]", display: true },
+        { left: "\\(", right: "\\)", display: false }
+      ],
+      throwOnError: false
+    });
+  });
+</script>
 </head>
