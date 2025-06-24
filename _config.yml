@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "https://hwangminseong42.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
